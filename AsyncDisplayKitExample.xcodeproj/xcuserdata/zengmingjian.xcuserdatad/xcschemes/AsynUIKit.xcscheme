@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8378B80219FD21330045367D"
-               BuildableName = "AsynUIKit.app"
-               BlueprintName = "AsynUIKit"
-               ReferencedContainer = "container:AsynUIKit.xcodeproj">
+               BuildableName = "AsyncDisplayKitExample.app"
+               BlueprintName = "AsyncDisplayKitExample"
+               ReferencedContainer = "container:AsyncDisplayKitExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8378B81B19FD21340045367D"
-               BuildableName = "AsynUIKitTests.xctest"
-               BlueprintName = "AsynUIKitTests"
-               ReferencedContainer = "container:AsynUIKit.xcodeproj">
+               BuildableName = "AsyncDisplayKitExampleTests.xctest"
+               BlueprintName = "AsyncDisplayKitExampleTests"
+               ReferencedContainer = "container:AsyncDisplayKitExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8378B81B19FD21340045367D"
-               BuildableName = "AsynUIKitTests.xctest"
-               BlueprintName = "AsynUIKitTests"
-               ReferencedContainer = "container:AsynUIKit.xcodeproj">
+               BuildableName = "AsyncDisplayKitExampleTests.xctest"
+               BlueprintName = "AsyncDisplayKitExampleTests"
+               ReferencedContainer = "container:AsyncDisplayKitExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8378B80219FD21330045367D"
-            BuildableName = "AsynUIKit.app"
-            BlueprintName = "AsynUIKit"
-            ReferencedContainer = "container:AsynUIKit.xcodeproj">
+            BuildableName = "AsyncDisplayKitExample.app"
+            BlueprintName = "AsyncDisplayKitExample"
+            ReferencedContainer = "container:AsyncDisplayKitExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8378B80219FD21330045367D"
-            BuildableName = "AsynUIKit.app"
-            BlueprintName = "AsynUIKit"
-            ReferencedContainer = "container:AsynUIKit.xcodeproj">
+            BuildableName = "AsyncDisplayKitExample.app"
+            BlueprintName = "AsyncDisplayKitExample"
+            ReferencedContainer = "container:AsyncDisplayKitExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8378B80219FD21330045367D"
-            BuildableName = "AsynUIKit.app"
-            BlueprintName = "AsynUIKit"
-            ReferencedContainer = "container:AsynUIKit.xcodeproj">
+            BuildableName = "AsyncDisplayKitExample.app"
+            BlueprintName = "AsyncDisplayKitExample"
+            ReferencedContainer = "container:AsyncDisplayKitExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

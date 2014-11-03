@@ -74,7 +74,7 @@
 		83478EE41A01C7E50044B253 /* PathNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathNode.m; sourceTree = "<group>"; };
 		83478EE61A01C9990044B253 /* AnimationNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationNode.h; sourceTree = "<group>"; };
 		83478EE71A01C9990044B253 /* AnimationNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationNode.m; sourceTree = "<group>"; };
-		8378B80319FD21330045367D /* AsynUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsynUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8378B80319FD21330045367D /* AsyncDisplayKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncDisplayKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8378B80719FD21330045367D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8378B80819FD21330045367D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8378B80A19FD21330045367D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		8378B80E19FD21330045367D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8378B81319FD21330045367D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8378B81619FD21330045367D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8378B81C19FD21340045367D /* AsynUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsynUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8378B81C19FD21340045367D /* AsyncDisplayKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncDisplayKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8378B82119FD21340045367D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8378B82219FD21340045367D /* AsynUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsynUIKitTests.m; sourceTree = "<group>"; };
 		8378B82C19FD4F120045367D /* AsynCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynCellNode.h; sourceTree = "<group>"; };
@@ -164,8 +164,8 @@
 		8378B80419FD21330045367D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8378B80319FD21330045367D /* AsynUIKit.app */,
-				8378B81C19FD21340045367D /* AsynUIKitTests.xctest */,
+				8378B80319FD21330045367D /* AsyncDisplayKitExample.app */,
+				8378B81C19FD21340045367D /* AsyncDisplayKitExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,9 +252,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8378B80219FD21330045367D /* AsynUIKit */ = {
+		8378B80219FD21330045367D /* AsyncDisplayKitExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8378B82619FD21340045367D /* Build configuration list for PBXNativeTarget "AsynUIKit" */;
+			buildConfigurationList = 8378B82619FD21340045367D /* Build configuration list for PBXNativeTarget "AsyncDisplayKitExample" */;
 			buildPhases = (
 				34A75FCEF55DAE9879FAFB6B /* Check Pods Manifest.lock */,
 				8378B7FF19FD21330045367D /* Sources */,
@@ -266,14 +266,14 @@
 			);
 			dependencies = (
 			);
-			name = AsynUIKit;
+			name = AsyncDisplayKitExample;
 			productName = AsynUIKit;
-			productReference = 8378B80319FD21330045367D /* AsynUIKit.app */;
+			productReference = 8378B80319FD21330045367D /* AsyncDisplayKitExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8378B81B19FD21340045367D /* AsynUIKitTests */ = {
+		8378B81B19FD21340045367D /* AsyncDisplayKitExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8378B82919FD21340045367D /* Build configuration list for PBXNativeTarget "AsynUIKitTests" */;
+			buildConfigurationList = 8378B82919FD21340045367D /* Build configuration list for PBXNativeTarget "AsyncDisplayKitExampleTests" */;
 			buildPhases = (
 				8378B81819FD21340045367D /* Sources */,
 				8378B81919FD21340045367D /* Frameworks */,
@@ -284,9 +284,9 @@
 			dependencies = (
 				8378B81E19FD21340045367D /* PBXTargetDependency */,
 			);
-			name = AsynUIKitTests;
+			name = AsyncDisplayKitExampleTests;
 			productName = AsynUIKitTests;
-			productReference = 8378B81C19FD21340045367D /* AsynUIKitTests.xctest */;
+			productReference = 8378B81C19FD21340045367D /* AsyncDisplayKitExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8378B7FE19FD21330045367D /* Build configuration list for PBXProject "AsynUIKit" */;
+			buildConfigurationList = 8378B7FE19FD21330045367D /* Build configuration list for PBXProject "AsyncDisplayKitExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -320,8 +320,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8378B80219FD21330045367D /* AsynUIKit */,
-				8378B81B19FD21340045367D /* AsynUIKitTests */,
+				8378B80219FD21330045367D /* AsyncDisplayKitExample */,
+				8378B81B19FD21340045367D /* AsyncDisplayKitExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -423,7 +423,7 @@
 /* Begin PBXTargetDependency section */
 		8378B81E19FD21340045367D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8378B80219FD21330045367D /* AsynUIKit */;
+			target = 8378B80219FD21330045367D /* AsyncDisplayKitExample */;
 			targetProxy = 8378B81D19FD21340045367D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -526,7 +526,7 @@
 				GCC_PREFIX_HEADER = AsynUIKit/PrefixHeader.pch;
 				INFOPLIST_FILE = AsynUIKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AsyncDisplayKitExample;
 			};
 			name = Debug;
 		};
@@ -540,7 +540,7 @@
 				GCC_PREFIX_HEADER = AsynUIKit/PrefixHeader.pch;
 				INFOPLIST_FILE = AsynUIKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AsyncDisplayKitExample;
 			};
 			name = Release;
 		};
@@ -558,7 +558,7 @@
 				);
 				INFOPLIST_FILE = AsynUIKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AsyncDisplayKitExampleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsynUIKit.app/AsynUIKit";
 			};
 			name = Debug;
@@ -573,7 +573,7 @@
 				);
 				INFOPLIST_FILE = AsynUIKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AsyncDisplayKitExampleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsynUIKit.app/AsynUIKit";
 			};
 			name = Release;
@@ -581,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8378B7FE19FD21330045367D /* Build configuration list for PBXProject "AsynUIKit" */ = {
+		8378B7FE19FD21330045367D /* Build configuration list for PBXProject "AsyncDisplayKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8378B82419FD21340045367D /* Debug */,
@@ -590,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8378B82619FD21340045367D /* Build configuration list for PBXNativeTarget "AsynUIKit" */ = {
+		8378B82619FD21340045367D /* Build configuration list for PBXNativeTarget "AsyncDisplayKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8378B82719FD21340045367D /* Debug */,
@@ -599,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8378B82919FD21340045367D /* Build configuration list for PBXNativeTarget "AsynUIKitTests" */ = {
+		8378B82919FD21340045367D /* Build configuration list for PBXNativeTarget "AsyncDisplayKitExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8378B82A19FD21340045367D /* Debug */,
